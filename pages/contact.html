@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+</head>
+<body>
+<table width="100%" >
+  <tr>
+    <td width="20%"></td>
+    <td width="60%">
+      <div class="container">
+        <form class="contact-form" style="" >
+          <table width="100%">
+            <tr>
+              <td colspan="2" align="center">
+                <h1>Contact Me </h1>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div>
+                  <input class="text-input" type="text" placeholder="Name" required>
+                </div>
+              </td>
+              <td>
+                <div>
+                  <input class="text-input" type="email" placeholder="Email" required>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" >
+                <span>Gender : </span>
+                <div style="padding: 0px 24px; display: inline-block" >
+                  <input  type="radio" name="gender-radio" > Male
+                </div>
+                <div style="padding: 0px 24px; display: inline-block" >
+                  <input  type="radio" name="gender-radio" > Male
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" >
+                <span>Your opinion on the website: </span>
+                <div style="padding: 0px 24px; display: inline-block" >
+                  <input  type="radio" name="rate-radio" > Very Good
+                </div>
+                <div style="padding: 0px 24px; display: inline-block" >
+                  <input  type="radio" name="rate-radio" > Good
+                </div>
+                <div style="padding: 0px 24px; display: inline-block" >
+                  <input  type="radio" name="rate-radio" > Fair
+                </div>
+
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <label >How did you know about us? </label>
+                <select name="source" id="source">
+                  <option value="internet">Internet</option>
+                  <option value="friend">Friend</option>
+                  <option value="social-media">Social Media </option>
+                  <option value="other">Others</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div>
+                  <input class="text-input" type="text" placeholder="Subject" required>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div>
+                  <textarea class="text-input" name="Message" >
+                    Message
+                  </textarea>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <button class="login-button" type="submit"> Login</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </td>
+    <td width="20%"></td>
+  </tr>
+</table>
+
+</body>
+<style>
+  .container{
+    justify-self: center;
+
+    border-radius: 4px;
+    margin: 4px;
+    padding: 24px;
+    background: rgba(255, 95, 0, 0.38);
+    border: 1px solid rgba(255,95,0,0.44);
+    box-shadow: rgba(255,95,0,0.44) 0px 1px 1px 0px, rgba(255,95,0,0.44) 0px 1px 2px 0px;
+  }
+
+  .text-input{
+    width: 100%;
+    border: 2px solid #7768AE;
+
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px;
+  }
+  .login-button{
+    width: 100%;
+    margin-top:8px;
+    padding: 10px;
+    background: rgba(14, 14, 14, 0.91);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Candara,serif;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+  }
+  .footer-container{
+
+    background-color: #FF5F00;
+    padding: 12px;
+  }
+  html{
+    font-family: Candara,serif;
+  }
+  td{
+    mso-cellspacing: 2px;
+  }
+  table{
+    border-spacing: 30px 0px;
+  }
+  #source{
+    border: 2px solid #7768AE;
+    margin: 2px;
+    padding: 12px;
+    border:2px solid #7768AE;
+  }
+</style>
+</html>
