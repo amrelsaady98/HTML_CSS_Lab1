@@ -21,145 +21,241 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body style="font-family: Candara,serif;">
+<body style="font-family: Candara,serif; margin: 0px">
 
-  <!-------------------Layout-table--------------->
-  <table border="0" align="center">
-    <tr>
-      <td colspan="3">
-        <!--Header-->
-        <div id="logo" style=" text-align: center;">
-          <p style=" font-size: 36px; font-weight: bold;">
-            <span style="background-color: #FF5F00; color: #151515;margin: 1px; padding: 1px 2px">A</span><span>mr El-Saady</span>
-          </p>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3">
-        <!--Nav-bar--->
-      </td>
-    </tr>
-    <tr>
-      <td colspan="1" width="20%">
-        <!--Left Side-->
-      </td>
-      <td colspan="1">
-        <div id="info-section" style="margin: 24px">
-          <p style="font-weight: bolder;font-size: 24px;">
-            My Personal Info
-          </p>
-          <div style="float: right; ">
-            <img height="150px" width="150px" style="border-radius: 50%" src="img/personal-image.jpg"/>
+<!-------------------Layout-table--------------->
+<table border="0" align="center">
+  <tr>
+    <td colspan="3">
+      <!--Header-->
+      <div id="logo" style=" text-align: center;">
+        <p style=" font-size: 36px; font-weight: bold;">
+          <span style="background-color: #FF5F00; color: #151515;margin: 1px; padding: 1px 2px">A</span><span>mr El-Saady</span>
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">
+      <!--Nav-bar--->
+      <div id="links-section" style="text-align: center; margin: 24px">
+        <a href="pages/home.html" style="margin: 24px"> Home </a>
+        <a href="" style="margin: 24px"> Contact </a>
+        <a href="#info-section" style="margin: 24px"> About </a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <!-----------Left Side--------->
+    <td colspan="1" width="20%" valign="top">
+      <!---------login form-------->
+
+      <div class="container">
+        <form class="login-form" style="">
+          <h2>Login </h2>
+
+          <div>
+            <input class="text-input" type="email" placeholder="Email" required>
           </div>
-          <ul style="list-style-type: none;">
-            <li>Age :  27</li>
-            <li>Address : 12 Al-Adel st., Maghagha, Al-Menya</li>
-            <li>Phones : 01220123523 / 01069849627 </li>
-            <li>Email : <a href="mailto:amrelsaady98@gmail.com">amrelsaady98@gmail.com</a></li>
-            <li>Faculty : <a href="https://eng.minia.edu.eg/EHome.aspx"> Faculty of Engineering - Minya University</a></li>
-            <li>Graduation Year : 2022 </li>
-            <li>Hobbies :
-              <ol>
-                <li> Video Gaming</li>
-                <li> Chess</li>
-                <li> Reading</li>
-              </ol>
-            </li>
-          </ul>
+          <div>
+            <input class="text-input" type="password" placeholder="Password" required>
+          </div>
+
+             <span>
+               <input type="checkbox">Remember Me <br/>
+             </span>
+            <a href="#">Forgot Password</a>
+
+          <div class="group">
+            <button class="login-button" type="submit"> Login</button>
+          </div>
+        </form>
+      </div>
+      <!------------End login form-------------------->
+
+      <div style="height: 36px"></div>
+      <!------------Social media links---------------->
+      <div class="container" style="display: flex; justify-content: center; align-items: center; ">
+        <div id="social-links"  style="padding-bottom: 18px;  align-self: center; width: 100%;  text-align: center">
+          <p style="font-weight: bolder">Find Me on Social Media</p>
+          <img width="36px" height="36px" style="margin: 4px" src="./img/5279111_network_fb_social%20media_facebook_facebook%20logo_icon.png"/>
+          <img width="36px" height="36px" style="margin: 4px" src="./img/5279123_tweet_twitter_twitter%20logo_icon.png"/>
+          <img width="36px" height="36px" style="margin: 4px" src="./img/5279117_forum_reddit_reddit%20logo_icon.png"/>
+          <img width="36px" height="36px" style="margin: 4px" src="./img/5279114_linkedin_network_social%20network_linkedin%20logo_icon.png"/>
         </div>
+      </div>
 
-        <div id="about-me-section" style="margin: 24px">
-          <p style="font-weight: bolder;font-size: 24px;">
-            About Me
-          </p>
-          <p style="margin: 24px">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem delectus dolor doloribus enim eveniet facilis id illo illum inventore ipsa ipsam maiores maxime officiis pariatur, quas reprehenderit vitae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid hic id illum obcaecati possimus, suscipit vel! Amet consequuntur, dignissimos doloremque ex incidunt inventore nobis nostrum quasi quod tenetur? Eaque, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque debitis dolor ea illum in minus, natus officia officiis pariatur praesentium quae sit sunt temporibus, unde velit veniam vero. Esse, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic provident quaerat vitae? Atque aut cumque delectus dicta, eveniet in laudantium, maiores minima odit, optio perspiciatis saepe tempore. Enim, neque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur laboriosam quis tempora! Alias assumenda atque beatae culpa dicta doloribus eveniet exercitationem, fugiat hic, nobis officia possimus quaerat repellendus ullam.
-          </p>
-          <hr/>
 
+    </td>
+    <td colspan="1">
+      <div id="info-section" style="margin: 24px">
+        <p style="font-weight: bolder;font-size: 24px;">
+          My Personal Info
+        </p>
+        <div style="float: right; ">
+          <img height="150px" width="150px" style="border-radius: 50%" src="img/personal-image.jpg"/>
         </div>
+        <ul style="list-style-type: none;">
+          <li>Age : 27</li>
+          <li>Address : 12 Al-Adel st., Maghagha, Al-Menya</li>
+          <li>Phones : 01220123523 / 01069849627</li>
+          <li>Email : <a href="mailto:amrelsaady98@gmail.com">amrelsaady98@gmail.com</a></li>
+          <li>Faculty : <a href="https://eng.minia.edu.eg/EHome.aspx"> Faculty of Engineering - Minya University</a>
+          </li>
+          <li>Graduation Year : 2022</li>
+          <li>Hobbies :
+            <ol>
+              <li> Video Gaming</li>
+              <li> Chess</li>
+              <li> Reading</li>
+            </ol>
+          </li>
+        </ul>
+      </div>
 
-      </td>
+      <div id="about-me-section" style="margin: 24px">
+        <p style="font-weight: bolder;font-size: 24px;">
+          About Me
+        </p>
+        <p style="margin: 24px">
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+          autem delectus dolor doloribus enim eveniet facilis id illo illum inventore ipsa ipsam maiores maxime officiis
+          pariatur, quas reprehenderit vitae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+          hic id illum obcaecati possimus, suscipit vel! Amet consequuntur, dignissimos doloremque ex incidunt inventore
+          nobis nostrum quasi quod tenetur? Eaque, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Atque debitis dolor ea illum in minus, natus officia officiis pariatur praesentium quae sit sunt temporibus,
+          unde velit veniam vero. Esse, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic
+          provident quaerat vitae? Atque aut cumque delectus dicta, eveniet in laudantium, maiores minima odit, optio
+          perspiciatis saepe tempore. Enim, neque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+          consectetur laboriosam quis tempora! Alias assumenda atque beatae culpa dicta doloribus eveniet
+          exercitationem, fugiat hic, nobis officia possimus quaerat repellendus ullam.
+        </p>
+        <hr/>
+
+      </div>
+
+    </td>
 
 
-      <td colspan="1" width="20%" height="70%">
-        <marquee behavior="" direction="up">
+    <td colspan="1" width="20%" height="70%">
+      <marquee behavior="" direction="up">
 
-          <p style="background-color: #FF5F00; text-align: center">
-            Lorem
-          </p>
+        <p style="background-color: #FF5F00; text-align: center">
+          Lorem
+        </p>
 
-        </marquee>
-      </td>
+      </marquee>
+    </td>
 
-    </tr>
-    <tr>
-      <td colspan="3">
-        <!--Footer-->
-      </td>
-    </tr>
+  </tr>
+  <tr>
+    <!-------------Footer-------------->
+    <td colspan="3">
+      <div class="footer-container">
+        <p style="text-align: center">Copyrights © are reserved to ITI.</p>
 
-  </table>
 
-  <!--<div id="header">
+      </div>
+    </td>
+  </tr>
 
+</table>
+
+<!--<div id="header">
+
+</div>
+<div id="info-section" style="margin: 24px">
+  <p style="font-weight: bolder;font-size: 24px;">
+    My Personal Info
+  </p>
+  <div style="float: right; ">
+    <img height="150px" width="150px" style="border-radius: 50%" src="https://lh3.googleusercontent.com/a/ACg8ocIgR_ZUQ3kTFgUj-uSfKbmtHyabhJAOdrMuqCUMjfBBBf7RoQk=s360-c-no"/>
   </div>
-  <div id="info-section" style="margin: 24px">
-    <p style="font-weight: bolder;font-size: 24px;">
-      My Personal Info
-    </p>
-    <div style="float: right; ">
-      <img height="150px" width="150px" style="border-radius: 50%" src="https://lh3.googleusercontent.com/a/ACg8ocIgR_ZUQ3kTFgUj-uSfKbmtHyabhJAOdrMuqCUMjfBBBf7RoQk=s360-c-no"/>
-    </div>
-    <ul style="list-style-type: none;">
-      <li>Age :  27</li>
-      <li>Address : 12 Al-Adel st., Maghagha, Al-Menya</li>
-      <li>Phones : 01220123523 / 01069849627 </li>
-      <li>Email : <a href="mailto:amrelsaady98@gmail.com">amrelsaady98@gmail.com</a></li>
-      <li>Faculty : <a href="https://eng.minia.edu.eg/EHome.aspx"> Faculty of Engineering - Minya University</a></li>
-      <li>Graduation Year : 2022 </li>
-      <li>Hobbies :
-        <ol>
-          <li> Video Gaming</li>
-          <li> Chess</li>
-          <li> Reading</li>
-        </ol>
-      </li>
-    </ul>
-  </div>
-  <div id="about-me-section" style="margin: 24px">
-    <p style="font-weight: bolder;font-size: 24px;">
-      About Me
-    </p>
-    <p style="margin: 24px">
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem delectus dolor doloribus enim eveniet facilis id illo illum inventore ipsa ipsam maiores maxime officiis pariatur, quas reprehenderit vitae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid hic id illum obcaecati possimus, suscipit vel! Amet consequuntur, dignissimos doloremque ex incidunt inventore nobis nostrum quasi quod tenetur? Eaque, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque debitis dolor ea illum in minus, natus officia officiis pariatur praesentium quae sit sunt temporibus, unde velit veniam vero. Esse, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic provident quaerat vitae? Atque aut cumque delectus dicta, eveniet in laudantium, maiores minima odit, optio perspiciatis saepe tempore. Enim, neque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur laboriosam quis tempora! Alias assumenda atque beatae culpa dicta doloribus eveniet exercitationem, fugiat hic, nobis officia possimus quaerat repellendus ullam.
-    </p>
-    <hr/>
-    <video width="400px" controls>
-      <source src="mov_bbb.mp4" type="video/mp4">
-      <source src="mov_bbb.ogg" type="video/ogg">
-      Your browser does not support HTML video.
-    </video>
-  </div>
-  <div id="links-section" style="text-align: center; margin: 24px">
-    <a href="pages/home.html" style="margin: 24px"> Home </a>
-    <a href="" style="margin: 24px"> Contact </a>
-    <a href="#info-section" style="margin: 24px"> About </a>
-  </div>
+  <ul style="list-style-type: none;">
+    <li>Age :  27</li>
+    <li>Address : 12 Al-Adel st., Maghagha, Al-Menya</li>
+    <li>Phones : 01220123523 / 01069849627 </li>
+    <li>Email : <a href="mailto:amrelsaady98@gmail.com">amrelsaady98@gmail.com</a></li>
+    <li>Faculty : <a href="https://eng.minia.edu.eg/EHome.aspx"> Faculty of Engineering - Minya University</a></li>
+    <li>Graduation Year : 2022 </li>
+    <li>Hobbies :
+      <ol>
+        <li> Video Gaming</li>
+        <li> Chess</li>
+        <li> Reading</li>
+      </ol>
+    </li>
+  </ul>
+</div>
+<div id="about-me-section" style="margin: 24px">
+  <p style="font-weight: bolder;font-size: 24px;">
+    About Me
+  </p>
+  <p style="margin: 24px">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem delectus dolor doloribus enim eveniet facilis id illo illum inventore ipsa ipsam maiores maxime officiis pariatur, quas reprehenderit vitae voluptas?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid hic id illum obcaecati possimus, suscipit vel! Amet consequuntur, dignissimos doloremque ex incidunt inventore nobis nostrum quasi quod tenetur? Eaque, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque debitis dolor ea illum in minus, natus officia officiis pariatur praesentium quae sit sunt temporibus, unde velit veniam vero. Esse, totam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi hic provident quaerat vitae? Atque aut cumque delectus dicta, eveniet in laudantium, maiores minima odit, optio perspiciatis saepe tempore. Enim, neque? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur laboriosam quis tempora! Alias assumenda atque beatae culpa dicta doloribus eveniet exercitationem, fugiat hic, nobis officia possimus quaerat repellendus ullam.
+  </p>
+  <hr/>
+  <video width="400px" controls>
+    <source src="mov_bbb.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    Your browser does not support HTML video.
+  </video>
+</div>
+<div id="links-section" style="text-align: center; margin: 24px">
+  <a href="pages/home.html" style="margin: 24px"> Home </a>
+  <a href="" style="margin: 24px"> Contact </a>
+  <a href="#info-section" style="margin: 24px"> About </a>
+</div>
 
-  <div style="display: flex; justify-content: center; align-items: center; ">
-    <div id="social-links" style="padding-bottom: 24px;  align-self: center; width: 50%; background-color: rgba(255,95,0,0.38); text-align: center">
-      <p style="font-weight: bolder">Find Me on Social Media</p>
-      <img width="36px" height="36px" style="margin: 4px" src="./img/5279111_network_fb_social%20media_facebook_facebook%20logo_icon.png"/>
-      <img width="36px" height="36px" style="margin: 4px" src="./img/5279123_tweet_twitter_twitter%20logo_icon.png"/>
-      <img width="36px" height="36px" style="margin: 4px" src="./img/5279117_forum_reddit_reddit%20logo_icon.png"/>
-      <img width="36px" height="36px" style="margin: 4px" src="./img/5279114_linkedin_network_social%20network_linkedin%20logo_icon.png"/>
-    </div>
+<div style="display: flex; justify-content: center; align-items: center; ">
+  <div id="social-links" style="padding-bottom: 24px;  align-self: center; width: 50%; background-color: rgba(255,95,0,0.38); text-align: center">
+    <p style="font-weight: bolder">Find Me on Social Media</p>
+    <img width="36px" height="36px" style="margin: 4px" src="./img/5279111_network_fb_social%20media_facebook_facebook%20logo_icon.png"/>
+    <img width="36px" height="36px" style="margin: 4px" src="./img/5279123_tweet_twitter_twitter%20logo_icon.png"/>
+    <img width="36px" height="36px" style="margin: 4px" src="./img/5279117_forum_reddit_reddit%20logo_icon.png"/>
+    <img width="36px" height="36px" style="margin: 4px" src="./img/5279114_linkedin_network_social%20network_linkedin%20logo_icon.png"/>
   </div>
+</div>
 
-  <p style="text-align: center">Copyrights © are reserved to ITI.</p>-->
+<p style="text-align: center">Copyrights © are reserved to ITI.</p>-->
 
 </body>
+
+<style>
+  .container{
+    border-radius: 4px;
+    margin: 4px;
+    padding: 24px;
+    background: rgba(255, 95, 0, 0.38);
+    border: 1px solid rgba(255,95,0,0.44);
+    box-shadow: rgba(255,95,0,0.44) 0px 1px 1px 0px, rgba(255,95,0,0.44) 0px 1px 2px 0px;
+  }
+
+  .text-input{
+
+    border: 2px solid #7768AE;
+    margin: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px;
+  }
+  .login-button{
+    width: 100%;
+    margin-top:8px;
+    padding: 10px;
+    background: rgba(14, 14, 14, 0.91);
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Candara,serif;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+  }
+  .footer-container{
+
+    background-color: #FF5F00;
+    padding: 12px;
+  }
+</style>
 
 </html>
